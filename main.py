@@ -50,7 +50,7 @@ def tic_tac_toe():
                 print("Cell already taken, choose another one.")
                 continue
         except (ValueError, IndexError):
-            print("Invalid input, please enter numbers 0, 1, or 2.")
+            print("Invalid input, please enter Letter A, B or C and number 0, 1, or 2.")
             continue
 
         board[number_index][letter_index] = current_player
